@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="doemail365 – Schweizer Nonprofit-Verein für digitale Teilhabe, Informationssicherheit und offenen Wissensaustausch.">
+  <title>doemail365</title>
+
+  <style>
+    :root {
+      --blue: #0969da;
+      --dark: #172033;
+      --light: #f6f8fa;
+      --text: #424a57;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      color: var(--text);
+      line-height: 1.6;
+      background: white;
+    }
+
+    header {
+      padding: 90px 24px;
+      text-align: center;
+      color: white;
+      background: linear-gradient(135deg, #0757b8, #1687e8);
+    }
+
+    header h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2.8rem, 8vw, 5rem);
+    }
+
+    header p {
+      max-width: 760px;
+      margin: auto;
+      font-size: 1.25rem;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: auto;
+      padding: 55px 24px;
+    }
+
+    h2 {
+      color: var(--dark);
+    }
+
+    .intro {
+      max-width: 780px;
+      margin-bottom: 45px;
+      font-size: 1.1rem;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      padding: 25px;
+      border: 1px solid #d8dee4;
+      border-radius: 12px;
+      background: var(--light);
+    }
+
+    .card h3 {
+      margin-top: 0;
+      color: var(--blue);
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 35px;
+      padding: 12px 20px;
+      border-radius: 8px;
+      color: white;
+      background: var(--blue);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    footer {
+      margin-top: 40px;
+      padding: 25px;
+      text-align: center;
+      color: #57606a;
+      background: var(--light);
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>doemail365</h1>
+    <p>
+      Schweizer Nonprofit-Verein für digitale Teilhabe,
+      Informationssicherheit und offenen Wissensaustausch.
+    </p>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Über uns</h2>
+      <p>
+        doemail365 ist ein gemeinnütziger und nicht gewinnorientierter
+        Verein im Sinne von Art. 60 ff. des Schweizerischen
+        Zivilgesetzbuches mit Sitz in Höri.
+      </p>
+
+      <p>
+        Wir vermitteln Wissen über einen sicheren, verantwortungsvollen
+        und datenschutzgerechten Umgang mit Informations- und
+        Kommunikationstechnologien.
+      </p>
+    </section>
+
+    <section>
+      <h2>Unsere Tätigkeit</h2>
+
+      <div class="cards">
+        <article class="card">
+          <h3>IT-Wissen</h3>
+          <p>
+            Wir veröffentlichen frei zugängliche Anleitungen und
+            praktische Hilfestellungen.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Informationssicherheit</h3>
+          <p>
+            Wir fördern den sicheren und datenschutzgerechten Umgang
+            mit digitalen Technologien.
+          </p>
+        </article>
+
+        <article class="card">
+          <h3>Digitale Teilhabe</h3>
+          <p>
+            Wir unterstützen natürliche Personen und gemeinnützige
+            Organisationen bei kleineren IT-Problemen.
+          </p>
+        </article>
+      </div>
+
+      <a class="button" href="https://github.com/doemail365">
+        Unsere Projekte auf GitHub
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    © 2026 doemail365 · Verein mit Sitz in Höri, Schweiz
+  </footer>
+</body>
+</html>
