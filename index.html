@@ -78,6 +78,40 @@
       color: var(--blue);
     }
 
+    .activities {
+      margin-top: 55px;
+    }
+
+    .activity {
+      padding: 28px;
+      border-left: 4px solid var(--blue);
+      border-radius: 0 12px 12px 0;
+      background: var(--light);
+    }
+
+    .activity h3 {
+      margin: 0 0 4px;
+      color: var(--dark);
+    }
+
+    .activity time {
+      display: block;
+      margin-bottom: 18px;
+      color: #57606a;
+      font-size: 0.95rem;
+      font-weight: 600;
+    }
+
+    .activity ul {
+      padding-left: 22px;
+    }
+
+    .privacy-note {
+      margin-top: 18px;
+      color: #57606a;
+      font-size: 0.95rem;
+    }
+
     .button {
       display: inline-block;
       margin-top: 35px;
@@ -158,6 +192,47 @@
       <a class="button" href="https://github.com/doemail365">
         Unsere Projekte auf GitHub
       </a>
+    </section>
+
+    <section class="activities" aria-labelledby="activities-title">
+      <h2 id="activities-title">Aus der Praxis</h2>
+
+      <p class="intro">
+        Hier dokumentieren wir ausgewählte Unterstützungsleistungen und
+        Projekte. Zum Schutz der beteiligten Personen werden die Berichte
+        anonymisiert.
+      </p>
+
+      <article class="activity">
+        <h3>Aufbereitung und Weitergabe eines Computers</h3>
+        <time datetime="2026-09">September 2026</time>
+
+        <p>
+          Ein gespendeter gebrauchter Computer wurde technisch geprüft,
+          vollständig neu aufgesetzt und kostenlos an eine Privatperson
+          weitergegeben.
+        </p>
+
+        <h4>Durchgeführte Arbeiten</h4>
+        <ul>
+          <li>Hardware und Zustand geprüft</li>
+          <li>vorhandenen Datenträger sicher gelöscht</li>
+          <li>Betriebssystem neu installiert</li>
+          <li>Sicherheitsupdates und Treiber installiert</li>
+          <li>grundlegende Sicherheits- und Datenschutzeinstellungen vorgenommen</li>
+          <li>abschließende Funktionsprüfung durchgeführt</li>
+        </ul>
+
+        <p>
+          <strong>Ergebnis:</strong> Ein funktionsfähiger Computer konnte für
+          die weitere Nutzung bereitgestellt werden.
+        </p>
+
+        <p class="privacy-note">
+          Personenbezogene Angaben, Seriennummern und interne Belege werden
+          nicht veröffentlicht.
+        </p>
+      </article>
     </section>
   </main>
 
